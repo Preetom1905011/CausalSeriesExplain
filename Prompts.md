@@ -74,7 +74,7 @@ Baseline Y: [15, 12, ... T values]
 > ⚠️ Avoid using domain-specific terminology. Use abstract labels to describe time-series trends.
 
 
-
+# Prompt: Novel Input Generation Given Ruleset
 ### Goal: Novel input set $(X_{s}', X_{a}')$ generation using ruleset $\mathcal{R}_i$
 
 **Prompt:**
@@ -112,6 +112,7 @@ Rules Table: `<Insert Ruleset in JSON schema format>`
 3.  For each output phase, briefly justify your input choices for the corresponding input weeks, referencing the rules and the expected delayed/inverse relationship.
 
 
+# Prompt: Ruleset Refinement
 ### Goal: Ruleset Refinement by evaluating $Y'$ (generated from $(X_{s}', X_a')$ and $Y_{base}$)
 
 **Prompt:**
